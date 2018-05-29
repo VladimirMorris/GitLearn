@@ -1,0 +1,80 @@
+body {
+ background-color: #ccc;
+ margin: 0;
+}
+
+
+
+.container {
+	width: 1210px;
+	margin: 0 auto;
+}
+
+nav {
+	display: flex;
+	align-items: center;
+}
+
+section {
+	text-align: center;
+}
+
+.logo {
+color: #fff;
+font-family: Montserrat;
+font-size: 30px;
+font-weight: 700;
+text-transform: uppercase;
+margin-right: auto;
+}
+
+.nav-item {
+text-decoration: none;
+color: #fff;
+margin-right: 55px;
+}
+
+.nav-item:last-child {
+	margin-right: 0px;
+}
+
+.sub-title {
+
+	color: #fff;
+	font-family: "Kaushan Script";
+	font-size: 72px;
+	font-weight: 400;
+	margin-top: 180px;
+}
+
+.main-title {
+	color: #fff;
+	font-family: Montserrat;
+	font-size: 150px;
+	font-weight: 700;
+	line-height: 140px;
+	text-transform: uppercase;
+	margin-top: 40px;
+}
+
+.main-title:after {
+	content: '';
+	width: 60px;
+	height: 3px;
+	background-color: #fff;
+	position: absolute;
+	margin-top: 70px;
+}
+
+.learn-more-button {
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.rectangle {
+	position: relative;
+}
