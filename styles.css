@@ -75,6 +75,9 @@ margin-right: 55px;
   text-align: center;
 }
 
-.rectangle {
-	position: relative;
+.rectangle{
+  width: 280px;
+  height: 3px;
+  background-color: #ffffff;
+  opacity: 0.5;
 }
